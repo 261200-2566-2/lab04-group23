@@ -14,7 +14,7 @@ Necromancer
 Operations : summonSpirit(String spiritName)
              spiritAttack(String spiritName,Character target)
 
--------------------------------------------------------------------
+------------------------------------------------------------------
 
 magicItem Interfaces
 Operations : upMagicStat(int spellPower, int mana)
