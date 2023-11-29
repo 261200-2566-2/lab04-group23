@@ -1,0 +1,34 @@
+Design Document
+
+mage Interfaces
+Operations : castAttackSpell(String spellName, Character target)
+             castDefenseSpell(String spellName)
+
+Sorcerer
+Operations : castSpellTwice(String spellName, Character target)
+
+Druid
+Operations : castNaturalPower(String naturalElement, Character target)
+
+Necromancer
+Operations : summonSpirit(String spiritName)
+             spiritAttack(String spiritName,Character target)
+
+-------------------------------------------------------------------
+
+magicItem Interfaces
+Operations : upMagicStat(int spellPower, int mana)
+
+bookOfSpell
+Operations :  upgradeSpell(String spellName)
+
+magicWand
+Operations : castSpecialDefenseSpell(String specialSpellName)
+             castSpecialAttackSpell(String specialSpellName, Character target)
+
+skullCrystal
+Operations : cancelEnemyAttack()
+
+
+
+
